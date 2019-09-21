@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="410dp"
+        android:layout_height="210dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_vertical"
+        android:text="@string/_0"
+        android:textAllCaps="true"
+        android:textColor="#BF000000"
+        android:textSize="160sp"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/Co"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_toast"
+        app:layout_constraintVertical_bias="0.498" />
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="457dp"
+        android:layout_height="46dp"
+        android:background="@color/colorPrimary"
+        android:onClick="showToast"
+        android:text="@string/toast"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/Co"
+        android:layout_width="457dp"
+        android:layout_height="46dp"
+        android:background="@color/colorPrimary"
+        android:onClick="countUp"
+        android:text="@string/count"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hp46 & sd47"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="107dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
