@@ -5,16 +5,12 @@ Cheferone
 MainActivity.java
 	- removed unused import 
 	- wrong Block comment style 
-		- // two line to -> /* */
-
+	- // two line to -> /* */
 SearchedRecipe
-
 	- removed unused import
-  - Untouched 'Arguments might be null' because it works
+        - Untouched 'Arguments might be null' because it works
 
-	
 NetworkUtils.java
 	- fixed Block comment
-
 IngredientTable.java & Splashscreen.java & every java class
 	- inconsistance format of {}
