@@ -12,5 +12,7 @@ SearchedRecipe
 
 NetworkUtils.java
 	- fixed Block comment
+	- removed unused import
 IngredientTable.java & Splashscreen.java & every java class
 	- inconsistance format of {}
+	- removed unused import
